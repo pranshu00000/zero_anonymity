@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active {
+  @apply border-b-2 text-blue-800;
+}
+
+hr {
+  border-top: 1px solid #baacac;
+}
+
+/* @keyframes bounce {
+    50% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+        opacity: 0;
+    }
+    0%,100% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+        opacity: 1;
+    }
+}
+.bouncy{
+    animation: bounce 1s linear  1 forwards ;
+} */
+
+@keyframes lft1 {
+  from {
+    left: -310px;
+  }
+  to {
+    left: -82px;
+  }
+}
+.leftslide1 {
+  animation: lft1 0.5s ease-in-out 1 forwards;
+}
+@keyframes lft2 {
+  from {
+    left: -50px;
+  }
+  to {
+    left: 80px;
+  }
+}
+.leftslide2 {
+  animation: lft2 0.5s ease-in-out 1 forwards;
+}
+@keyframes rgt1 {
+  from {
+    right: -215px;
+  }
+  to {
+    right: -120px;
+  }
+}
+.rightslide1 {
+  animation: rgt1 0.5s ease-in-out 1 forwards;
+}
+@keyframes rgt2 {
+  from {
+    right: -200px;
+  }
+  to {
+    right: -7px;
+  }
+}
+.rightslide2 {
+  animation: rgt2 0.5s ease-in-out 1 forwards;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fading {
+  animation: fade 0.5s linear 1 forwards;
+}
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+.drop {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@font-face {
+  font-family: ultra;
+  src: url(./fonts/Pacifico-Regular.ttf);
+}
+
+.ultra{
+  font-family: ultra;
+}

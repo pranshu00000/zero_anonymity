@@ -1,0 +1,9 @@
+chatId = userId_1 + userId_2 (will always be unique)
+keep in mind "userId_1 < userId_2" ALWAYS!
+
+messageId = current timestamp (ek hi time pe do message toh daal nahi paaoge)
+    -- dal sakte h isliye timestamp+senderID
+senderId = jab login karte ho, uska username variable mai store kar lo. wo hi toh sender hoga hamesha.
+
+
+isActive === spectatorMode === true

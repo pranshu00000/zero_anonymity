@@ -1,0 +1,24 @@
+usernames can contain only alphanumeric chars.
+set character limit for messages
+display messages when sent with a clock. and then a tick when it is sent to db
+usernames should be only in lowercase
+
+start texting in center
+uncomment heartbeatstart signal
+
+prevent back from chatPage to EnterUsername Page
+change panel of UsernameInUse from yes/no to only button of enter spectator mode and choose another username.
+
+logout button to be added
+
+add security - firebase keys visible from chrome
+shift+enter
+new message notif on screen when scrolled up
+
+TODO: your chats are not encrypted. not only us literally anyone can read whatever you send👍
+TODO: dont call data from db if the user selects the same selected user in chat card
+
+if logged in as chameleon with full access then logout before switching accounts
+
+show logged in only after logging in and not on main screen
+user is logged in if i create a new chat with them
